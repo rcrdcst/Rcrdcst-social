@@ -13,6 +13,10 @@
 		212F6CB21D4A9D92006EBC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB11D4A9D92006EBC8E /* Assets.xcassets */; };
 		212F6CB51D4A9D92006EBC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */; };
 		212F6CBD1D4A9E1D006EBC8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CBC1D4A9E1D006EBC8E /* GoogleService-Info.plist */; };
+		21FAF7501D4AB47E00D13014 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAF74F1D4AB47E00D13014 /* FancyView.swift */; };
+		21FAF7531D4AB50C00D13014 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAF7521D4AB50C00D13014 /* Constants.swift */; };
+		21FAF7571D4AB71100D13014 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAF7561D4AB71100D13014 /* RoundBtn.swift */; };
+		21FAF7591D4AB81300D13014 /* TextFieldProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAF7581D4AB81300D13014 /* TextFieldProp.swift */; };
 		494F72C81C2C1473869FC72F /* Pods_rcrdcst_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E06F89763F31E1390C5AE9F /* Pods_rcrdcst_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		212F6CB41D4A9D92006EBC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212F6CB61D4A9D92006EBC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212F6CBC1D4A9E1D006EBC8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21FAF74F1D4AB47E00D13014 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		21FAF7521D4AB50C00D13014 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21FAF7561D4AB71100D13014 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		21FAF7581D4AB81300D13014 /* TextFieldProp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldProp.swift; sourceTree = "<group>"; };
 		3E06F89763F31E1390C5AE9F /* Pods_rcrdcst_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rcrdcst_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C7AD28A3B059668DA13432 /* Pods-rcrdcst-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcrdcst-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social.debug.xcconfig"; sourceTree = "<group>"; };
 		C01C6F756CD2A007DCB92BEB /* Pods-rcrdcst-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcrdcst-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 		212F6CA91D4A9D92006EBC8E /* rcrdcst-social */ = {
 			isa = PBXGroup;
 			children = (
+				21FAF7511D4AB4FF00D13014 /* Util */,
 				21FAF74B1D4AA52C00D13014 /* Model */,
 				21FAF74D1D4AA53E00D13014 /* Controller */,
 				21FAF74C1D4AA53000D13014 /* View */,
@@ -94,6 +103,9 @@
 		21FAF74C1D4AA53000D13014 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				21FAF74F1D4AB47E00D13014 /* FancyView.swift */,
+				21FAF7561D4AB71100D13014 /* RoundBtn.swift */,
+				21FAF7581D4AB81300D13014 /* TextFieldProp.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -104,6 +116,14 @@
 				212F6CAC1D4A9D92006EBC8E /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		21FAF7511D4AB4FF00D13014 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				21FAF7521D4AB50C00D13014 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		CCA32FAFC76A1D68999D998B /* Pods */ = {
@@ -242,8 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FAF7591D4AB81300D13014 /* TextFieldProp.swift in Sources */,
 				212F6CAD1D4A9D92006EBC8E /* SignInVC.swift in Sources */,
+				21FAF7571D4AB71100D13014 /* RoundBtn.swift in Sources */,
 				212F6CAB1D4A9D92006EBC8E /* AppDelegate.swift in Sources */,
+				21FAF7501D4AB47E00D13014 /* FancyView.swift in Sources */,
+				21FAF7531D4AB50C00D13014 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
