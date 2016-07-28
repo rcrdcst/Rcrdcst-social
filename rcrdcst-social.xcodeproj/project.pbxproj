@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		212F6CAB1D4A9D92006EBC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */; };
-		212F6CAD1D4A9D92006EBC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F6CAC1D4A9D92006EBC8E /* ViewController.swift */; };
+		212F6CAD1D4A9D92006EBC8E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F6CAC1D4A9D92006EBC8E /* SignInVC.swift */; };
 		212F6CB01D4A9D92006EBC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CAE1D4A9D92006EBC8E /* Main.storyboard */; };
 		212F6CB21D4A9D92006EBC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB11D4A9D92006EBC8E /* Assets.xcassets */; };
 		212F6CB51D4A9D92006EBC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */; };
+		212F6CBD1D4A9E1D006EBC8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CBC1D4A9E1D006EBC8E /* GoogleService-Info.plist */; };
+		494F72C81C2C1473869FC72F /* Pods_rcrdcst_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E06F89763F31E1390C5AE9F /* Pods_rcrdcst_social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		212F6CA71D4A9D92006EBC8E /* rcrdcst-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rcrdcst-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		212F6CAC1D4A9D92006EBC8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212F6CAC1D4A9D92006EBC8E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		212F6CAF1D4A9D92006EBC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212F6CB11D4A9D92006EBC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212F6CB41D4A9D92006EBC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212F6CB61D4A9D92006EBC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212F6CBC1D4A9E1D006EBC8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E06F89763F31E1390C5AE9F /* Pods_rcrdcst_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rcrdcst_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C7AD28A3B059668DA13432 /* Pods-rcrdcst-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcrdcst-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social.debug.xcconfig"; sourceTree = "<group>"; };
+		C01C6F756CD2A007DCB92BEB /* Pods-rcrdcst-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcrdcst-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494F72C81C2C1473869FC72F /* Pods_rcrdcst_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0366197F717E3E56F8EDFFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E06F89763F31E1390C5AE9F /* Pods_rcrdcst_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		212F6C9E1D4A9D92006EBC8E = {
 			isa = PBXGroup;
 			children = (
 				212F6CA91D4A9D92006EBC8E /* rcrdcst-social */,
 				212F6CA81D4A9D92006EBC8E /* Products */,
+				CCA32FAFC76A1D68999D998B /* Pods */,
+				0366197F717E3E56F8EDFFF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,48 @@
 		212F6CA91D4A9D92006EBC8E /* rcrdcst-social */ = {
 			isa = PBXGroup;
 			children = (
+				21FAF74B1D4AA52C00D13014 /* Model */,
+				21FAF74D1D4AA53E00D13014 /* Controller */,
+				21FAF74C1D4AA53000D13014 /* View */,
 				212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */,
-				212F6CAC1D4A9D92006EBC8E /* ViewController.swift */,
 				212F6CAE1D4A9D92006EBC8E /* Main.storyboard */,
 				212F6CB11D4A9D92006EBC8E /* Assets.xcassets */,
 				212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */,
+				212F6CBC1D4A9E1D006EBC8E /* GoogleService-Info.plist */,
 				212F6CB61D4A9D92006EBC8E /* Info.plist */,
 			);
 			path = "rcrdcst-social";
+			sourceTree = "<group>";
+		};
+		21FAF74B1D4AA52C00D13014 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21FAF74C1D4AA53000D13014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		21FAF74D1D4AA53E00D13014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				212F6CAC1D4A9D92006EBC8E /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCA32FAFC76A1D68999D998B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C7AD28A3B059668DA13432 /* Pods-rcrdcst-social.debug.xcconfig */,
+				C01C6F756CD2A007DCB92BEB /* Pods-rcrdcst-social.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212F6CB91D4A9D92006EBC8E /* Build configuration list for PBXNativeTarget "rcrdcst-social" */;
 			buildPhases = (
+				E60FDCF614FA6B9D30B304E7 /* [CP] Check Pods Manifest.lock */,
 				212F6CA31D4A9D92006EBC8E /* Sources */,
 				212F6CA41D4A9D92006EBC8E /* Frameworks */,
 				212F6CA51D4A9D92006EBC8E /* Resources */,
+				608CEDAB4A7DD144B9045FD4 /* [CP] Embed Pods Frameworks */,
+				D1F0FCD3C3ED6C0DD9F28374 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +152,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 937653S469;
 						DevelopmentTeamName = "ricardo silva (Personal Team)";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212F6CB51D4A9D92006EBC8E /* LaunchScreen.storyboard in Resources */,
+				212F6CBD1D4A9E1D006EBC8E /* GoogleService-Info.plist in Resources */,
 				212F6CB21D4A9D92006EBC8E /* Assets.xcassets in Resources */,
 				212F6CB01D4A9D92006EBC8E /* Main.storyboard in Resources */,
 			);
@@ -133,12 +189,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		608CEDAB4A7DD144B9045FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F0FCD3C3ED6C0DD9F28374 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rcrdcst-social/Pods-rcrdcst-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60FDCF614FA6B9D30B304E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		212F6CA31D4A9D92006EBC8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212F6CAD1D4A9D92006EBC8E /* ViewController.swift in Sources */,
+				212F6CAD1D4A9D92006EBC8E /* SignInVC.swift in Sources */,
 				212F6CAB1D4A9D92006EBC8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +360,9 @@
 		};
 		212F6CBA1D4A9D92006EBC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C7AD28A3B059668DA13432 /* Pods-rcrdcst-social.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rcrdcst-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -268,7 +374,9 @@
 		};
 		212F6CBB1D4A9D92006EBC8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01C6F756CD2A007DCB92BEB /* Pods-rcrdcst-social.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rcrdcst-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -297,6 +405,7 @@
 				212F6CBB1D4A9D92006EBC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
