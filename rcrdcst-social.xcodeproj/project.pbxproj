@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212F6CAB1D4A9D92006EBC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */; };
+		212F6CAD1D4A9D92006EBC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F6CAC1D4A9D92006EBC8E /* ViewController.swift */; };
+		212F6CB01D4A9D92006EBC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CAE1D4A9D92006EBC8E /* Main.storyboard */; };
+		212F6CB21D4A9D92006EBC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB11D4A9D92006EBC8E /* Assets.xcassets */; };
+		212F6CB51D4A9D92006EBC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212F6CA71D4A9D92006EBC8E /* rcrdcst-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rcrdcst-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212F6CAC1D4A9D92006EBC8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212F6CAF1D4A9D92006EBC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212F6CB11D4A9D92006EBC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212F6CB41D4A9D92006EBC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212F6CB61D4A9D92006EBC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212F6CA41D4A9D92006EBC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212F6C9E1D4A9D92006EBC8E = {
+			isa = PBXGroup;
+			children = (
+				212F6CA91D4A9D92006EBC8E /* rcrdcst-social */,
+				212F6CA81D4A9D92006EBC8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212F6CA81D4A9D92006EBC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212F6CA71D4A9D92006EBC8E /* rcrdcst-social.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212F6CA91D4A9D92006EBC8E /* rcrdcst-social */ = {
+			isa = PBXGroup;
+			children = (
+				212F6CAA1D4A9D92006EBC8E /* AppDelegate.swift */,
+				212F6CAC1D4A9D92006EBC8E /* ViewController.swift */,
+				212F6CAE1D4A9D92006EBC8E /* Main.storyboard */,
+				212F6CB11D4A9D92006EBC8E /* Assets.xcassets */,
+				212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */,
+				212F6CB61D4A9D92006EBC8E /* Info.plist */,
+			);
+			path = "rcrdcst-social";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212F6CA61D4A9D92006EBC8E /* rcrdcst-social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212F6CB91D4A9D92006EBC8E /* Build configuration list for PBXNativeTarget "rcrdcst-social" */;
+			buildPhases = (
+				212F6CA31D4A9D92006EBC8E /* Sources */,
+				212F6CA41D4A9D92006EBC8E /* Frameworks */,
+				212F6CA51D4A9D92006EBC8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rcrdcst-social";
+			productName = "rcrdcst-social";
+			productReference = 212F6CA71D4A9D92006EBC8E /* rcrdcst-social.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212F6C9F1D4A9D92006EBC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "ricardo silva";
+				TargetAttributes = {
+					212F6CA61D4A9D92006EBC8E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 937653S469;
+						DevelopmentTeamName = "ricardo silva (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 212F6CA21D4A9D92006EBC8E /* Build configuration list for PBXProject "rcrdcst-social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212F6C9E1D4A9D92006EBC8E;
+			productRefGroup = 212F6CA81D4A9D92006EBC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212F6CA61D4A9D92006EBC8E /* rcrdcst-social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212F6CA51D4A9D92006EBC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212F6CB51D4A9D92006EBC8E /* LaunchScreen.storyboard in Resources */,
+				212F6CB21D4A9D92006EBC8E /* Assets.xcassets in Resources */,
+				212F6CB01D4A9D92006EBC8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212F6CA31D4A9D92006EBC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212F6CAD1D4A9D92006EBC8E /* ViewController.swift in Sources */,
+				212F6CAB1D4A9D92006EBC8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		212F6CAE1D4A9D92006EBC8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212F6CAF1D4A9D92006EBC8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212F6CB31D4A9D92006EBC8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212F6CB41D4A9D92006EBC8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212F6CB71D4A9D92006EBC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212F6CB81D4A9D92006EBC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212F6CBA1D4A9D92006EBC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rcrdcst-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rcrdcst.rcrdcst-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		212F6CBB1D4A9D92006EBC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rcrdcst-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rcrdcst.rcrdcst-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212F6CA21D4A9D92006EBC8E /* Build configuration list for PBXProject "rcrdcst-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212F6CB71D4A9D92006EBC8E /* Debug */,
+				212F6CB81D4A9D92006EBC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212F6CB91D4A9D92006EBC8E /* Build configuration list for PBXNativeTarget "rcrdcst-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212F6CBA1D4A9D92006EBC8E /* Debug */,
+				212F6CBB1D4A9D92006EBC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212F6C9F1D4A9D92006EBC8E /* Project object */;
+}
