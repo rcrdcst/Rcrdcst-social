@@ -70,6 +70,9 @@
                                 <state key="normal" title="Login With Facebook">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="facebookLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKU-qD-HyK"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJR-et-kv4" customClass="TextFieldProp" customModule="rcrdcst_social" customModuleProvider="target">
                                 <constraints>
